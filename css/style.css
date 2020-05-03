@@ -1,0 +1,114 @@
+/****HTML elements****/
+
+body{
+    
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(163, 165, 174);
+    font-weight: 200;
+    background-color: hsl(0, 0%, 98%);
+
+}
+h1{
+    color:#414249;
+    font-weight:600;
+    margin:0 auto;
+}
+
+h2, h3{
+    color:#414249;
+    }
+
+/***Class selectors***/
+.intro{
+    text-align: center;
+    width: 50%;
+    margin:60px auto 60px auto;
+    padding-bottom: 60px;
+
+}
+
+.supervisor{
+    -webkit-box-shadow: 6px 5px 22px 1px #A3A5AE; 
+box-shadow: 6px 5px 22px 1px #A3A5AE;
+
+   background-color: white;
+    border-top: hsl(180, 62%, 55%) 5px solid ;
+    border-radius: 5px;
+    width: 330px;
+    height:200px;
+    position: relative;
+    top:100px;
+    padding:25px;
+    width:20%;
+    margin-left: 150px;
+    display: inline-block;
+    
+}
+.img-supervisor{
+    position: absolute;
+    bottom:30px;
+    left:220px;
+}
+
+.team-builder{
+    -webkit-box-shadow: 6px 5px 22px 1px #A3A5AE; 
+box-shadow: 6px 5px 22px 1px #A3A5AE;
+    background-color: white;
+    border-top: hsl(0, 78%, 62%) 5px solid ;
+    border-radius: 5px;
+    width: 330px;
+    height:200px;
+    position: relative;
+    bottom:280px;
+    padding:25px;
+    margin:0 auto;
+    width:20%;
+}
+.img-team-builder{
+    position: absolute;
+    bottom:30px;
+    left:220px;
+}
+
+
+.karma{
+    -webkit-box-shadow: 6px 5px 22px 1px #A3A5AE; 
+box-shadow: 6px 5px 22px 1px #A3A5AE;
+    background-color: white;
+    border-top: hsl(34, 97%, 64%) 5px solid ;
+    border-radius: 5px;
+    width: 330px;
+    height:200px;
+    position: relative;
+    padding:25px;
+    width:20%;
+    margin:0 auto;
+    bottom:240px;
+}
+.img-karma{
+    position: absolute;
+    bottom:30px;
+    left:220px;
+}
+
+
+.calculator{
+    -webkit-box-shadow: 6px 5px 22px 1px #A3A5AE; 
+box-shadow: 6px 5px 22px 1px #A3A5AE;
+    background-color: white;
+    border-top: hsl(212, 86%, 64% )5px solid ;
+    border-radius: 5px;
+    width:20%;
+    height:200px;
+    position: relative;
+    left: 870px;
+    bottom:670px;
+    padding:25px;
+   display: inline-block;
+}
+.img-calculator{
+    position: absolute;
+    bottom:30px;
+    left:220px;
+}
